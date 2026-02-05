@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body {
+  @apply mx-10 my-7 bg-gray-50;
+}
+
+@media (max-width: 1024px) {
+  body {
+    @apply mx-0 my-0;
+  }
+}
